@@ -1,5 +1,5 @@
 import type { Request, Response } from "express";
-import DbClient from "../../prisma/DbClient";
+import DbClient from "../prisma/DbClient";
 
 export const deleteURL = async (req: Request, res: Response) => {
   try {

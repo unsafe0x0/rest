@@ -1,5 +1,5 @@
 {
-  "name": "url-shortner",
+  "name": "user-management",
   "module": "index.ts",
   "type": "module",
   "private": true,

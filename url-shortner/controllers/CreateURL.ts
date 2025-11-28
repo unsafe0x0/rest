@@ -1,6 +1,6 @@
 import type { Request, Response } from "express";
-import DbClient from "../../prisma/DbClient";
-import { generateShortCode } from "../../utils/ShortCode";
+import DbClient from "../prisma/DbClient";
+import { generateShortCode } from "../utils/ShortCode";
 
 export const createURL = async (req: Request, res: Response) => {
   try {

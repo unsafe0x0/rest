@@ -1,5 +1,5 @@
 import type { Request, Response } from "express";
-import DbClient from "../../prisma/DbClient";
+import DbClient from "../prisma/DbClient";
 
 export const deleteUser = async (req: Request, res: Response) => {
   try {

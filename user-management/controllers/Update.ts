@@ -1,5 +1,5 @@
 import type { Request, Response } from "express";
-import DbClient from "../../prisma/DbClient";
+import DbClient from "../prisma/DbClient";
 import bcrypt from "bcryptjs";
 
 export const updateUser = async (req: Request, res: Response) => {

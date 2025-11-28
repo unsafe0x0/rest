@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "url-shortner",
+      "name": "user-management",
       "dependencies": {
         "@prisma/client": "6.19",
         "@types/cors": "^2.8.19",
