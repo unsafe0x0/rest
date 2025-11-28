@@ -12,6 +12,9 @@ A collection of independent REST API services. Each service has its own subdirec
 - **user-management**  
   REST API for user registration, login, dashboard, profile update, and account deletion.
 
+- **notifications**  
+  REST API for sending notifications via socket.io.
+
 ## Contributing
 
 if you want to contribute to this project, please follow these steps:
