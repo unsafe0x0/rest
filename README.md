@@ -6,8 +6,11 @@ A collection of independent REST API services. Each service has its own subdirec
 
 ## Services
 
-- url-shortner  
-  Provides short code generation for long URLs, click tracking, and basic user account management.
+- **url-shortner**  
+  REST API for generating short codes for long URLs, resolving short codes, tracking click counts.
+
+- **user-management**  
+  REST API for user registration, login, dashboard, profile update, and account deletion.
 
 ## Contributing
 

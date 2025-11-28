@@ -1,10 +1,10 @@
 import { Router } from "express";
 import { authMiddleware } from "../middleware/AuthMiddleware";
-import { registerUser } from "../controllers/user/Resigter";
-import { loginUser } from "../controllers/user/Login";
-import { updateUser } from "../controllers/user/Update";
-import { deleteUser } from "../controllers/user/Delete";
-import { getDashboard } from "../controllers/user/Dashboard";
+import { registerUser } from "../controllers/Resigter";
+import { loginUser } from "../controllers/Login";
+import { updateUser } from "../controllers/Update";
+import { deleteUser } from "../controllers/Delete";
+import { getDashboard } from "../controllers/Dashboard";
 
 const userRouter = Router();
 

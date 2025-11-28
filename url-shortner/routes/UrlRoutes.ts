@@ -1,9 +1,9 @@
 import { Router } from "express";
-import { createURL } from "../controllers/url/CreateURL";
-import { getURL } from "../controllers/url/GetURL";
-import { deleteURL } from "../controllers/url/DeleteURL";
-import { updateURL } from "../controllers/url/UpdateURL";
-import { increaseClickCount } from "../controllers/url/IncreaseClickCount";
+import { createURL } from "../controllers/CreateURL";
+import { getURL } from "../controllers/GetURL";
+import { deleteURL } from "../controllers/DeleteURL";
+import { updateURL } from "../controllers/UpdateURL";
+import { increaseClickCount } from "../controllers/IncreaseClickCount";
 import { authMiddleware } from "../middleware/AuthMiddleware";
 
 const urlRouter = Router();

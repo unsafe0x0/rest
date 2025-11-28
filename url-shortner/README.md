@@ -9,7 +9,6 @@ Provides:
 - Create short codes for long URLs
 - Resolve a short code to original URL
 - Track click counts
-- Basic user auth (register, login, dashboard, update, delete)
 
 ## Environment
 
@@ -32,23 +31,16 @@ bun run dev
 
 Public:
 
-- POST `/user/register`
-- POST `/user/login`
 - GET `/url/:shortCode`
 - PUT `/url/:shortCode/clicks`
 
 Private (Authorization: Bearer <token>):
 
-- GET `/user/dashboard`
-- PUT `/user/update`
-- DELETE `/user/delete`
 - POST `/url/new`
 - PUT `/url/update`
 - DELETE `/url/delete/:shortCode` (route requires leading `/` in code)
 
 ## Auth
-
-Login returns `{ token }`. Supply in `Authorization` header.
 
 ## Responses (Typical)
 

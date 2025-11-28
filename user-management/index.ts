@@ -4,6 +4,7 @@ import cors from "cors";
 import morgan from "morgan";
 import rateLimit from "express-rate-limit";
 
+import userRouter from "./routes/UserRoutes";
 import urlRouter from "./routes/UrlRoutes";
 
 const app = express();
@@ -24,6 +25,7 @@ app.get("/", (req, res) => {
   res.send("Welcome to the URL Shortener Service!");
 });
 
+app.use("/user", userRouter);
 app.use("/url", urlRouter);
 
 const PORT = process.env.PORT || 3000;
